@@ -5,7 +5,7 @@ Nomad is a Multi-Agent System (MAS) designed to automate the travel planning pro
 **Track:** Concierge Agents  
 **Created for:** Google AI Agents Intensive Capstone 2025
 
-## 🚀 Features
+## Features
 - **Multi-Agent Architecture:** Separates concerns between "Research" (Scout) and "Planning" (Atlas).
 - **Tool Use:** Integrated `DuckDuckGo` search for real-time, non-hallucinated data (Weather, Events).
 - **Context Awareness:** Passes structured context between agents to maintain logical flow.
@@ -26,9 +26,22 @@ Nomad_Capstone/
 
 
 
-**Tech Stack**
+##Tech Stack
 
 Language: Python 3.10+
 LLM: Google Gemini 1.5 Flash
 Search: DuckDuckGo
 Environment: Dotenv
+
+
+## How to Run Locally
+
+**1. Clone the Repository**
+git clone [https://github.com/YOUR_USERNAME/Nomad_Capstone.git](https://github.com/YOUR_USERNAME/Nomad_Capstone.git)
+cd Nomad_Capstone
+Install Dependencies Make sure you have Python installed, then run:
+pip install -r requirements.txt
+Configure API Key Create a file named .env in the root folder and add your Google Gemini API key:
+GEMINI_API_KEY=your_actual_api_key_here
+Run the Application You can run the web interface (recommended) or the terminal version:- streamlit run app.py
+Terminal (CLI):-python main.py
