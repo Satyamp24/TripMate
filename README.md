@@ -9,7 +9,7 @@ Nomad is a Multi-Agent System (MAS) designed to automate the travel planning pro
 - **Multi-Agent Architecture:** Separates concerns between "Research" (Scout) and "Planning" (Atlas).
 - **Tool Use:** Integrated `DuckDuckGo` search for real-time, non-hallucinated data (Weather, Events).
 - **Context Awareness:** Passes structured context between agents to maintain logical flow.
-- **Gemini Powered:** Uses Google's `gemini-1.5-flash` for high-speed inference.
+- **Gemini Powered:** Uses Google's `gemini-2.0-flash` for high-speed inference.
 
 ## 📂 Project Structure
 ```text
@@ -29,7 +29,7 @@ Nomad_Capstone/
 ##Tech Stack
 
 Language: Python 3.10+
-LLM: Google Gemini 1.5 Flash
+LLM: Google Gemini 2.0 Flash
 Search: DuckDuckGo
 Environment: Dotenv
 
@@ -45,3 +45,4 @@ Configure API Key Create a file named .env in the root folder and add your Googl
 GEMINI_API_KEY=your_actual_api_key_here
 Run the Application You can run the web interface (recommended) or the terminal version:- streamlit run app.py
 Terminal (CLI):-python main.py
+
